@@ -23,3 +23,8 @@ body{
 .right{
     width: 75vw;
 }
+
+.home ul li {
+    width: 34px;
+    list-style: none;
+}
