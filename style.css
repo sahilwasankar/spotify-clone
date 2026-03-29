@@ -15,6 +15,7 @@ body{
 
 .left{
     width: 25vw;
+    padding: 34px;
     
 }
 .right{
@@ -26,4 +27,13 @@ body{
     width: 20px;
     gap: 15px;
     list-style: none;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter:invert(1)
 }
