@@ -37,3 +37,7 @@ body{
 .invert{
     filter:invert(1)
 }
+
+.bg-grey{
+    background-color: rgba(78, 83, 78, 0.133);
+}

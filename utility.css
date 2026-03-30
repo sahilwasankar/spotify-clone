@@ -7,3 +7,7 @@
 .item-center{
     align-items: center;
 }
+
+.rounded{
+    border-radius: 7px;
+}
