@@ -15,7 +15,7 @@ body{
 
 .left{
     width: 25vw;
-    padding: 34px;
+    padding: 10px;
     
 }
 .right{
@@ -27,6 +27,9 @@ body{
     width: 20px;
     gap: 15px;
     list-style: none;
+}
+.home{
+    padding: 10px;
 }
 
 .bg-black{
@@ -40,4 +43,8 @@ body{
 
 .bg-grey{
     background-color: rgba(78, 83, 78, 0.133);
+}
+
+.m1{
+    margin: 5px;
 }
