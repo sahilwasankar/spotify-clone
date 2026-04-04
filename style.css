@@ -58,3 +58,16 @@ body{
 .p-1{
     padding: 10px;
 }
+
+.playlist {
+  width: 24px;
+  height: 24px;
+}
+
+.heading{
+  display: flex;
+    width: 100%;
+    gap: 15px;
+    padding-top: 14px;
+    font-weight: bold;
+}
