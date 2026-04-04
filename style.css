@@ -74,3 +74,20 @@ body{
     font-weight: bold;
     align-items: center;
 }
+
+.library{
+    min-height: 50vh;
+    position: relative;
+}
+.footer{
+     display: flex;
+       font-size: 10px;
+       gap: 13px;
+       position: absolute;
+       bottom: 0;
+}
+.footer a{
+   
+    color: grey;
+
+}
