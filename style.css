@@ -8,8 +8,8 @@
 }
 
 body{
-    /* background-color: black;
-    color: white; */
+    background-color: black;
+    color: white;
 }
 
 .border{
@@ -76,7 +76,7 @@ body{
 }
 
 .library{
-    min-height: 50vh;
+    min-height: 80vh;
     position: relative;
 }
 .footer{
