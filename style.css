@@ -24,6 +24,7 @@ body{
 }
 .right{
     width: 75vw;
+    margin: 15px 0;
 }
 
 .home ul li {
@@ -95,7 +96,9 @@ body{
 .header{
     display: flex;
     justify-content: space-between ;
+    background-color: rgb(34 , 34 , 34);
+
 }
-.header * {
+.header > * {
     padding: 13px;
 }
