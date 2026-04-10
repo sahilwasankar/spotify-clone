@@ -102,3 +102,7 @@ body{
 .header > * {
     padding: 13px;
 }
+
+.spotify-playlist{
+    padding: 16px;
+}
