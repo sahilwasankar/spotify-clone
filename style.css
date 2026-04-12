@@ -1,28 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
-     font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
-body{
+body {
     background-color: black;
     color: white;
 }
 
-.border{
+.border {
     border: 2px solid red;
     margin: 3px;
 }
 
-.left{
+.left {
     width: 25vw;
     padding: 10px;
-    
+
 }
-.right{
+
+.right {
     width: 75vw;
     margin: 15px 0;
 }
@@ -35,24 +36,23 @@ body{
     padding-top: 14px;
     font-weight: bold;
 }
-.home{
- 
-}
 
-.bg-black{
+.home {}
+
+.bg-black {
     background-color: black;
     color: white;
 }
 
-.invert{
-    filter:invert(1)
+.invert {
+    filter: invert(1)
 }
 
-.bg-grey{
+.bg-grey {
     background-color: rgba(78, 83, 78, 0.133);
 }
 
-.m1{
+.m1 {
     margin: 5px;
 }
 
@@ -61,62 +61,74 @@ body{
 } */
 
 .playlist {
-  width: 24px;
-  height: 24px;
+    width: 24px;
+    height: 24px;
 }
 
-.heading{
-  display: flex;
+.heading {
+    display: flex;
     width: 100%;
     gap: 15px;
     padding-top: 14px;
-    padding:23px 14px ;
+    padding: 23px 14px;
     font-size: 13px;
     font-weight: bold;
     align-items: center;
 }
 
-.library{
+.library {
     min-height: 80vh;
     position: relative;
 }
-.footer{
-     display: flex;
-       font-size: 10px;
-       gap: 13px;
-       position: absolute;
-       bottom: 0;
+
+.footer {
+    display: flex;
+    font-size: 10px;
+    gap: 13px;
+    position: absolute;
+    bottom: 0;
 }
-.footer a{
-   
+
+.footer a {
+
     color: grey;
 
 }
 
-.header{
+.header {
     display: flex;
-    justify-content: space-between ;
-    background-color: rgb(34 , 34 , 34);
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
 
 }
-.header > * {
+
+.header>* {
     padding: 13px;
 }
 
-.spotifyplaylist{
+.spotifyplaylist {
     padding: 16px;
 }
-.spotifyplaylist .card{
+
+.cardContainer {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card {
     width: 200px;
     padding: 10px;
     border-radius: 5px;
     background-color: #252525;
 
 }
-.card > * {
+
+.card>* {
     padding-top: 3px;
 }
-.card img{
+
+.card img {
     width: 100%;
     object-fit: contain;
 }
